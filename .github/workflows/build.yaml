@@ -28,6 +28,8 @@ jobs:
       - name: Get last modified file
         id: getfile
         run: |
+          ls -Art dist
+          ls -Art dist | tail -n 1
           last_modified_file=$(ls -Art dist | tail -n 1)
           echo "Last modified file: $last_modified_file"
           echo "filename=$last_modified_file" >> $GITHUB_OUTPUT
