@@ -1,9 +1,9 @@
 <img src="./src/icon.svg" width="100" /><br>
 # Close Webview
 <i>Closes webview2</i> <br>
-### Version 1.0.0.4
+### Version 1.0.0.5
 
-[<img src="https://placehold.co/200x50/4493f8/FFF?text=Download&font=montserrat" width="200"/>](https://github.com/skymen/CloseAppWebview/releases/download/webview_close-1.0.0.4.c3addon/webview_close-1.0.0.4.c3addon)
+[<img src="https://placehold.co/200x50/4493f8/FFF?text=Download&font=montserrat" width="200"/>](https://github.com/skymen/CloseAppWebview/releases/download/webview_close-1.0.0.5.c3addon/webview_close-1.0.0.5.c3addon)
 <br>
 <sub> [See all releases](https://github.com/skymen/CloseAppWebview/releases) </sub> <br>
 
