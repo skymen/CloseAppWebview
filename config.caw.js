@@ -7,19 +7,25 @@ import {
 import _version from "./version.js";
 export const addonType = ADDON_TYPE.PLUGIN;
 export const type = PLUGIN_TYPE.OBJECT;
-export const id = "sample_addon";
-export const name = "Sample Addon";
+export const id = "webview_close";
+export const name = "Close Webview";
 export const version = _version;
 export const minConstructVersion = undefined;
 export const author = "skymen";
 export const website = "https://www.construct.net";
 export const documentation = "https://www.construct.net";
-export const description = "Description";
-export const category = ADDON_CATEGORY.GENERAL;
+export const description = "Closes webview2";
+export const category = ADDON_CATEGORY.PLATFORM_SPECIFIC;
 
 export const hasDomside = false;
 export const files = {
-  extensionScript: {},
+  extensionScript: {
+    enabled: true, // set to false to disable the extension script
+    watch: true, // set to true to enable live reload on changes during development
+    targets: ["x86", "x64"],
+    // you don't need to change this, the build step will rename the dll for you. Only change this if you change the name of the dll exported by Visual Studio
+    name: "MyExtension",
+  },
   fileDependencies: [],
   cordovaPluginReferences: [],
   cordovaResourceFiles: [],
